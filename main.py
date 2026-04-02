@@ -17,7 +17,7 @@ VK_TOKEN = 'vk1.a.gg0A2uqhaeJR4Q0rQroAOrKxLtlld-zpDhUuNRsLph2tyJZzoyIioGN8vNs_Az
 ADMIN_IDS = [7572936594] 
 
 PORT = int(os.environ.get("PORT", 8080))
-RENDER_URL = os.environ.get("RENDER_EXTERNAL_URL")
+RENDER_URL = os.environ.get("https://bonew-uial.onrender.com")
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 bot = Bot(token=TOKEN)
