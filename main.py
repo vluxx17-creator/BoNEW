@@ -12,7 +12,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
 # --- КОНФИГУРАЦИЯ (ТВОИ ДАННЫЕ) --- 
-TOKEN = '8541837659:AAFTSpb_ozGp2ZqRc8oXShvFFxlJF7nl1zg'
+TOKEN = '8758935544:AAEwREvxc7e0q-GuiO1Xx0oxA3d1UIHh39E'
 VK_TOKEN = 'vk1.a.gg0A2uqhaeJR4Q0rQroAOrKxLtlld-zpDhUuNRsLph2tyJZzoyIioGN8vNs_AzCfepKFqTdigONU-ydz1VZnL68Ns7qZ0HcgUhmEOE_F1ZI26awIwunbGfzTpn-xmEEXAueaaBR5lb-ew_z478YoxYuNlAEHHfGBddR9u10-MJae6l1UUC4C3eKWD28ugFy7hhguP-Ihcxsb42Fbq_SPsw'
 ADMIN_IDS = [7572936594] 
 
