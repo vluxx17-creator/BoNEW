@@ -89,13 +89,13 @@ async def loading(m, module="SCANNER"):
 async def cmd_start(m: types.Message):
     add_user(m.from_user.id, m.from_user.username)
     await m.answer(
-        "┌── [ HEMS OSINT ]\n"
+        "┌── [Ackerman probif  ]\n"
         "│\n"
         "│ Приветствую в боте \n"
         "│ Тут есть все для начинающего осинтера \n"
         "│ Бот расскажет о данных от а до я \n"
         "│ Скорее пробуй и зови друзей \n"
-        "│ @ovnoy \n"
+        "│ y \n"
         "│\n"
         "└── [ ACTIVE ]",
         reply_markup=main_kb(m.from_user.id)
