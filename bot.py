@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 VK_TOKEN = os.getenv("VK_API_TOKEN", "") 
 
 # Инициализация бота (Берется из переменных окружения на Render для безопасности на GitHub)
-TOKEN = os.getenv("BOT_TOKEN", "ВАШ_ТОКЕН_БОТА")
+TOKEN = os.getenv("8758935544:AAEwREvxc7e0q-GuiO1Xx0oxA3d1UIHh39E",)
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 router = Router()
@@ -33,8 +33,7 @@ BANNER = (
 class SearchStates(StatesGroup):
     waiting_for_phone = State()
     waiting_for_ip = State()
-    waiting_for_vk = State()
-    waiting_for_username = State()
+    waiting_for_vk = State    waiting_for_username = State()
     waiting_for_provider = State()
 
 start_kb = InlineKeyboardMarkup(inline_keyboard=[
