@@ -17,7 +17,9 @@ logging.basicConfig(level=logging.INFO)
 VK_TOKEN = os.getenv("VK_API_TOKEN", "") 
 
 # Инициализация бота (Берется из переменных окружения на Render для безопасности на GitHub)
-TOKEN = os.getenv("8758935544:AAEwREvxc7e0q-GuiO1Xx0oxA3d1UIHh39E",)
+# Вместо os.getenv
+TOKEN = "8758935544:AAEwREvxc7e0q-GuiO1Xx0oxA3d1UIHh39E" 
+bot = Bot(token=TOKEN)
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 router = Router()
