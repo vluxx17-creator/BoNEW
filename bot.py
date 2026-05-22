@@ -33,8 +33,9 @@ BANNER = (
 class SearchStates(StatesGroup):
     waiting_for_phone = State()
     waiting_for_ip = State()
-    waiting_for_vk = State    waiting_for_username = State()
-    waiting_for_provider = State()
+    waiting_for_vk = State()
+waiting_for_username = State()
+waiting_for_provider = State()
 
 start_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="🔍 Перейти к выбору пробива", callback_data="start_search")],
